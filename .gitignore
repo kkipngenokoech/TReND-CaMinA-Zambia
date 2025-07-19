@@ -2,3 +2,32 @@
 .DS_Store
 *.pyc
 __pycache__
+
+# Large files that exceed GitHub's 100MB limit
+*.pptx
+*.mp4
+*.npz
+*.mat
+
+# Large data files
+data/
+datasets/
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Video files
+*.avi
+*.mov
+*.wmv
+*.flv
+
+# Large image files
+*.tiff
+*.tif
+
+# Temporary files
+*.tmp
+*.temp
+*~
